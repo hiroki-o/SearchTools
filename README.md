@@ -2,7 +2,7 @@
 Nifty search feature extensions for Unity
 
 ## How to use
-0. [SearchTools](https://github.com/eral/SearchTools/releases)をダウンロード・インストール
+0. Download [SearchTools](https://github.com/eral/SearchTools/releases), add them to your Unity project.
 0. Select Rom Include Viewer from Unity Menu/Window/Search Tools
 0. Rom Include Viewer window will open and it start analysis.
 0. Wait untile analysis is done.
