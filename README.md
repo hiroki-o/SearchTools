@@ -1,19 +1,19 @@
 # SearchTools
-Unityに於ける各種検索機能の実装
+Nifty search feature extensions for Unity
 
-## 使い方
+## How to use
 0. [SearchTools](https://github.com/eral/SearchTools/releases)をダウンロード・インストール
-0. Unityメニュー/Window/Search ToolsからRom Include Viewerを選択
-0. Rom Include Viewerウインドウが開き、解析が自動で始まる
-0. 解析が終わる迄待つ
-0. Projectタブから梱包状況を知りたいアセットを選択する
-0. Rom Include Viewerに選択したアセットの梱包状況が表示される
+0. Select Rom Include Viewer from Unity Menu/Window/Search Tools
+0. Rom Include Viewer window will open and it start analysis.
+0. Wait untile analysis is done.
+0. View any asset in Project window you wish to see if assets are included in final build.
+0. Rom Include Viewer displays the status of assets, whether if it is included in build. 
 
-## アイコンの意味
-<img alt="IncludeIcon" src="https://raw.githubusercontent.com/eral/SearchTools/master/Assets/SearchTools/Textures/IncludeIcon.png">…ロムに含まれる  
-<img alt="ExcludeIcon" src="https://raw.githubusercontent.com/eral/SearchTools/master/Assets/SearchTools/Textures/ExcludeIcon.png">…ロムに含まれない  
-<img alt="Ambiguous" src="https://raw.githubusercontent.com/eral/SearchTools/master/Assets/SearchTools/Textures/AmbiguousIcon.png">…ロムに含まれるアセットと含まれないアセットが混ざってる(Projectタブのみ)  
-<img alt="UnknownIcon" src="https://raw.githubusercontent.com/eral/SearchTools/master/Assets/SearchTools/Textures/UnknownIcon.png">…判定対象になっていない(解析時に存在しなかったアセット)  
+## Icons and means
+<img alt="IncludeIcon" src="https://raw.githubusercontent.com/eral/SearchTools/master/Assets/SearchTools/Textures/IncludeIcon.png"> Asset is included in build  
+<img alt="ExcludeIcon" src="https://raw.githubusercontent.com/eral/SearchTools/master/Assets/SearchTools/Textures/ExcludeIcon.png"> Asset is NOT included in build 
+<img alt="Ambiguous" src="https://raw.githubusercontent.com/eral/SearchTools/master/Assets/SearchTools/Textures/AmbiguousIcon.png"> Asset is partically included in build (Only in Project Window)
+<img alt="UnknownIcon" src="https://raw.githubusercontent.com/eral/SearchTools/master/Assets/SearchTools/Textures/UnknownIcon.png"> Asset is excluded from analysis.(was not available on last analysis moment)
 
 ## LICENSE
 Boost Software License, Version 1.0
