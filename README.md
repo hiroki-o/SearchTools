@@ -1,6 +1,8 @@
 # SearchTools
 Nifty search feature extensions for Unity
 
+![tool image](/Docs/images/readme.jpg)
+
 ## How to use
 0. Download [SearchTools](https://github.com/eral/SearchTools/releases), add them to your Unity project.
 0. Select Rom Include Viewer from Unity Menu/Window/Search Tools
